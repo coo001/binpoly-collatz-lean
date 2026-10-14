@@ -1,8 +1,10 @@
 # Lean formalization: a Collatz variant over binary polynomials
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23356586.svg)](https://doi.org/10.5281/zenodo.23356586)
+
 This repository contains a Lean 4 / Mathlib formalization of all numbered lemmas, propositions, theorems and corollaries in
 
-> WooYoung Choi, *Exact lengths and a quadratic bound for a Collatz variant over binary polynomials* (preprint, 2026).
+> WooYoung Choi, *Exact lengths and a quadratic bound for a Collatz variant over binary polynomials*, preprint (2026), Zenodo, [doi:10.5281/zenodo.23356586](https://doi.org/10.5281/zenodo.23356586).
 
 The map studied is the variant of Gallardo and Rahavandrainy on F₂[x]: for an odd polynomial O (O(0) = O(1) = 1),
 T(O) = op((x² + x + 1)·O + 1), where op removes all factors x and x + 1.
