@@ -1,0 +1,11 @@
+name = "binpoly_collatz"
+version = "0.1.0"
+defaultTargets = ["BinpolyCollatz"]
+
+[[lean_lib]]
+name = "BinpolyCollatz"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "fcd79238d34137c492bb55aef27aba0916e0a36f"
